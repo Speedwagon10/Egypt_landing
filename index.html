@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/pyramid_icon.png">
+    <title>Egypt</title>
+</head>
+<body>
+
+    <div class="popup_bg">
+
+        <form action="/" class="popup">
+            <img src="Images/closeIcon.png" alt="/" class="close_popup" width="15" height="15">
+            <div class="form_container">
+
+                <header class="head_form">
+
+                    <h2>Log In</h2>
+
+                </header><!--../.HEAD_FORM-->
+                <br>
+                <div class="field_set">
+
+                    <div class="form_group_inputs">
+                        <img class="form_imgs" src="Images/userIcon.png" alt="/">
+                        
+
+                        <input class="form_input" id="text_input" type="text" placeholder="@UserName" required>
+                    </div>
+
+                    <div class="form_group_inputs">
+                        <img class="form_imgs" src="Images/passwordIcon.png" alt="/">
+
+                        <input class="form_input" type="password" name="password" placeholder="Password" id="pwd" required>
+                    
+                    </div>
+
+                    <button class="log_in_btn form_btn">Log in</button>
+
+                </div><!--../.FIELD_SET-->
+
+                <div class="other_btn">
+
+                        <!-- Forgot password button -->
+                        <button class="form_btn submits frgt_pwd">Forgot Password</button>
+                        <!-- Sign up -->
+                        <button class="form_btn submits sign_up">
+                            Sign Up
+                            <img src="Images/userSignUp.png" alt="/" class="form_imgs sign_up_img">
+                        </button>
+                        
+                </div><!--../.OTHER_BTNs-->
+
+            </div><!--../.FORM_CONTAINER-->
+        </form><!--../.POPUP-->
+
+    </div><!--../.POPUP_BG-->
+    
+
+    <header class="header" id="header">
+
+        <div class="container">
+
+            <div class="header_inner">
+
+                <div class="logo_search">
+
+                    <div class="header_logo">
+                        Egypt<span>Tour</span>
+                    </div><!--../.HEADER_LOGO-->
+
+                    <div class="header_search">
+                        <img class="search_img" id="search_img" src="Images/search.svg" alt="/">
+                        <form action="/" id="search" class="search">
+                            <input class="search_input" name="search" id="search_" type="text" placeholder="Search">
+                            <button class="search_btn" id="search_btn" type="submit">
+                                <img src="Images/search.svg" alt="/">
+                            </button>
+                        </form>
+                    </div><!--../.HEADER_SEARCH-->
+                </div><!--../.LOGO_SEARCH-->
+
+                <div class="nav_btn">
+
+                    <div class="header_nav">
+
+                        <a href="#" class="header_nav_link">Home</a>
+                        <a href="#" class="header_nav_link">Guides</a>
+                        <a href="#" class="header_nav_link">About</a>
+                        <a href="#" class="header_nav_link">Inspiration</a>
+                        <a href="#" class="header_nav_link">Contact</a>
+
+                    </div><!--../.HEADER_NAV-->
+
+                    <div class="header_btn">
+                        <button class="btn_sign_in open_popup">Sign in</button>
+                    </div><!--../.BTN-->
+
+                </div>
+
+                <div class="nav_menu">
+
+                    <button type="button" class="menu_btn">
+                        <img src="Images/icon_menu.png" alt="menu" width="30" height="30">
+                    </button>
+
+                    <div class="nav_block">
+
+                        <p class="nav_block_link">Home</p>
+                        <p class="nav_block_link">Guides</p>
+                        <p class="nav_block_link">About</p>
+                        <p class="nav_block_link">Inspiration</p>
+                        <p class="nav_block_link">Contact</p>
+                        <div class="btn_menu_sign_in">
+                            <button class="btn_sign_in open_popup">Sign in</button>
+                        </div>
+
+                    </div><!--../.NAV_BLOCK-->
+
+                </div><!--../.NAV_MENU-->
+
+
+            </div><!--../.HEADER_INNER-->
+
+        </div><!--../.CONTAINER-->
+
+    </header><!--../.HEADER-->
+
+    <div class="page">
+
+    <main class="main">
+
+        <div class="intro">
+
+            <div class="intro_title">
+                <h1 class="main_title anim_item">
+                <span>F</span><span>i</span><span>n</span><span>d</span> <span>t</span><span>h</span><span>e</span> <span>B</span><span>e</span><span>s</span><span>t</span><br> <span>E</span><span>g</span><span>y</span><span>p</span><span>t</span><span>i</span><span>a</span><span>n</span> <span>G</span><span>u</span><span>i</span><span>d</span><span>e</span>
+                </h1>
+            </div>
+            <img src="Images/desert_1.png" alt="/" class="intro_img">
+
+            <div class="intro_selects">
+
+                <div class="container">
+    
+                    <div class="intro_selects_content">
+    
+                     <div class="select select_gender anim_item">
+
+                        <div class="select_label">Gender</div>
+
+                        <select class="select_"> 
+                            <option value="male">Male</option> 
+                            <option value="female">Female</option> 
+                          </select>
+
+                          <div class="select_arrow"></div>
+
+                     </div><!--../.SELECT-->
+
+
+                     <div class="select select_age anim_item">
+
+                        <div class="select_label">Age</div>
+
+                        <select class="select_"> 
+                            <option value="24+">24+</option> 
+                            <option value="18+">18+</option> 
+                            <option value="16+">16+</option> 
+                          </select>
+
+                          <div class="select_arrow"></div>
+
+                     </div><!--../.SELECT-->
+
+
+                     <div class="select select_language anim_item">
+
+                        <div class="select_label">Language</div>
+
+                        <select class="select_"> 
+                            <option value="arabic">Arabic</option> 
+                            <option value="franch">Franch</option> 
+                            <option value="russian">Russian</option> 
+                            <option value="english">English</option> 
+                          </select>
+
+                          <div class="select_arrow"></div>
+
+                     </div><!--../.SELECT-->
+
+
+                     <div class="select select_loc anim_item">
+
+                        <div class="select_label">Localization</div>
+
+                        <select class="select_"> 
+                            <option value="cairo">Cairo</option> 
+                            <option value="luxor">Luxor</option> 
+                            <option value="alexandria">Alexandria</option> 
+                            <option value="hurghada">Hurghada</option> 
+                            <option value="Aswan">Aswan</option> 
+                          </select>
+
+                          <div class="select_arrow"></div>
+
+                     </div><!--../.SELECT-->
+
+                     <div class="_btn">
+                        <button class="common_btn" >Search</button>
+                    </div><!--../.BTN-->
+
+    
+                    </div><!--../.INTRO_SELECTS_CONTENT-->
+    
+                </div><!--../.CONTAINER-->
+    
+            </div><!--../.INTRO_SELECTS-->
+
+        </div><!--../.INTRO-->
+
+
+        <section class="guides_f_u_section">
+
+            <div class="container">
+
+                <div class="guides_intro">
+                    <h2 class="title anim_item">Guides for you</h2>
+
+                    <div class="_btn">
+                        <button class="common_btn">See All Guides</button>
+                    </div><!--../.BTN-->
+                </div><!--../.GUIDES_INTRO-->
+
+                <div class="guides_content">
+
+                    <div class="guide_item guide_item1 anim_item">
+
+                        <div class="guide_photo">
+
+                            <img src="Images/guide_photo1.png" alt="/" width="188" height="188">
+
+                        </div><!--../.guide_photo-->
+
+                        <div class="guide_description">
+
+                            <div class="guide_name">
+                                Dio Brando
+                            </div><!--../.GUIDE_NAME-->
+
+                            <div class="guide_rating">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div><!--../.GUIDE_RATING-->
+
+                            <div class="guide_reviews">
+                                1000000+ reviews
+                            </div><!--../.GUIDE_REVIEWS-->
+
+                        </div><!--../.GUIDE_DESCRIPTION-->
+
+                    </div><!--../.GUIDE_ITEM-->
+
+                    <div class="guide_item guide_item2 anim_item">
+
+                        <div class="guide_photo">
+
+                            <img src="Images/guide_photo2.png" alt="/" width="188" height="188">
+
+                        </div><!--../.guide_photo-->
+
+                        <div class="guide_description">
+
+                            <div class="guide_name">
+                                Kira Yoshikage
+                            </div><!--../.GUIDE_NAME-->
+
+                            <div class="guide_rating">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div><!--../.GUIDE_RATING-->
+
+                            <div class="guide_reviews">
+                                1000+ reviews
+                            </div><!--../.GUIDE_REVIEWS-->
+
+                        </div><!--../.GUIDE_DESCRIPTION-->
+
+                    </div><!--../.GUIDE_ITEM-->
+
+                    <div class="guide_item guide_item3 anim_item">
+
+                        <div class="guide_photo">
+
+                            <img src="Images/guide_photo3.png" alt="/" width="188" height="188">
+
+                        </div><!--../.guide_photo-->
+
+                        <div class="guide_description">
+
+                            <div class="guide_name">
+                                Enrico Pucci
+                            </div><!--../.GUIDE_NAME-->
+
+                            <div class="guide_rating">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div><!--../.GUIDE_RATING-->
+
+                            <div class="guide_reviews">
+                                1000+ reviews
+                            </div><!--../.GUIDE_REVIEWS-->
+
+                        </div><!--../.GUIDE_DESCRIPTION-->
+
+                    </div><!--../.GUIDE_ITEM-->
+
+                    <div class="guide_item guide_item4 anim_item">
+
+                        <div class="guide_photo">
+
+                            <img src="Images/guide_photo4.png" alt="/" width="188" height="188">
+
+                        </div><!--../.guide_photo-->
+
+                        <div class="guide_description">
+
+                            <div class="guide_name">
+                                Kars 
+                            </div><!--../.GUIDE_NAME-->
+
+                            <div class="guide_rating">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div><!--../.GUIDE_RATING-->
+
+                            <div class="guide_reviews">
+                                1000+ reviews
+                            </div><!--../.GUIDE_REVIEWS-->
+
+                        </div><!--../.GUIDE_DESCRIPTION-->
+
+                    </div><!--../.GUIDE_ITEM-->
+
+                </div><!--../.GUIDES_CONTENT-->
+
+            </div><!--../.CONTAINER-->
+
+        </section><!--../.GUIDES_F_U_SECTION-->
+
+
+        <section class="how_w_section">
+
+            <div class="container">
+
+                <h2 class="title anim_item">How does it Work?</h2>
+
+                <div class="instruction">
+
+                    <div class="instruction_item anim_item instr_item1">
+
+                        <div class="instruction_item_img">
+
+                            <div class="instruction_img_bg">
+                                <img src="Images/HDIW_1_bg.png" alt="/">
+                            </div>
+
+                            <div class="instruction_img_circle">
+                            </div>
+
+                            <div class="instruction_img_human1">
+                                <img src="Images/HDIW_1.png" alt="/">
+                            </div>
+                            
+                        </div><!--../.INSTRUCTION-ITEM-IMG-->
+
+                        <div class="instruction_text anim_item instr_text1">
+
+                            Select a <br> Guide
+
+                        </div>
+
+                    </div><!--../.instrunction_item-->
+
+
+                    <div class="instruction_item anim_item instr_item2">
+
+                        <div class="instruction_item_img">
+
+                            <div class="instruction_img_bg">
+                                <img src="Images/HDIW_2_bg.png" alt="/">
+                            </div>
+
+                            <div class="instruction_img_circle">
+                            </div>
+
+                            <div class="instruction_img_human2">
+                                <img src="Images/HDIW_2.png" alt="/">
+                            </div>
+                            
+                        </div><!--../.INSTRUCTION-ITEM-IMG-->
+
+                        <div class="instruction_text anim_item instr_text2">
+
+                            Contact <br> Guide
+
+                        </div>
+
+                    </div><!--../.instrunction_item-->
+
+                    <div class="instruction_item anim_item instr_item3">
+
+                        <div class="instruction_item_img">
+
+                            <div class="instruction_img_bg">
+                                <img src="Images/HDIW_3_bg.png" alt="/">
+                            </div>
+
+                            <div class="instruction_img_circle">
+                            </div>
+
+                            <div class="instruction_img_human3">
+                                <img src="Images/HDIW_3.png" alt="/">
+                            </div>
+                            
+                        </div><!--../.INSTRUCTION-ITEM-IMG-->
+
+                        <div class="instruction_text anim_item instr_text3">
+
+                            Create your <br> Travel
+
+                        </div>
+
+                    </div><!--../.instrunction_item-->
+
+                </div><!--../.INSTRUCTION-->
+
+            </div><!--../.CONTAINER-->
+
+        </section><!--../.HOW_W_SECTION-->
+
+
+        <section class="a_u_guide_section">
+
+            <div class="a_u_guide_title">
+                <h2 class="main_title anim_item">
+                    Are you a Tourist <br> Guide in Egypt?
+                </h2>
+            </div>
+            <img src="Images/desert_2.png" alt="/" class="a_u_guide_img">
+
+            <div class="a_u_guide_aut">
+
+                <div class="container">
+
+                    <div class="guide_aut">
+
+                        <div class="guide_aut_text anim_item">
+                            Be referenced on our site, <br> <span>it's 100% free! </span>
+                        </div>
+
+                        <div class="guide_content">
+                            <div class="_btn">
+
+                                <div class="common_btn">I am a Tourist Guide</div>
+
+                            </div>
+
+                            <div class="aut_guides">
+
+                                <div class="aut_guides_imgs">
+
+                                    <img class="join_img_1 join_img" src="Images/join_1.png" alt="/">
+                                    <img class="join_img_2 join_img" src="Images/join_2.png" alt="/">
+                                    <img class="join_img_3 join_img" src="Images/join_3.png" alt="/">
+                                    <img class="join_img_4 join_img" src="Images/join_4.png" alt="/">
+
+                                </div>
+
+                                <p><span>1000+</span> tourist join us</p>
+
+                            </div>
+
+                        </div><!--../.GUIDE_CONTENT-->
+
+                    </div><!--../.GUIDE_AUT_CONTENT-->
+
+                </div><!--../.CONTAINER -->
+
+            </div><!--../.a_u_guide_aut-->
+
+        </section><!--../.A_U_GUIDE_SECTION-->
+
+
+        <section class="articles_section">
+
+            <div class="container">
+
+            <h2 class="title anim_item">Learn more About Egypt</h2>
+
+            <div class="articles">
+
+                <div class="main_article_item article_item anim_item article_item_1">
+                    
+                    <div class="article_img">
+                    <img class="main_article_img"  src="Images/article_1.png" alt="hotel">
+                </div>
+
+                    <div class="article_content">
+
+                        <div class="article_subtitle">Hotel</div>
+
+                        <a class="article_title" href="#">Where to sleep in Luxor? <img src="Images/arrow_up_right.svg" alt="arrow"></a>
+
+                    </div>
+                    
+                </div><!--../.ARTICLE_ITEM-->
+
+                <div class="articles_are_not_main anim_item">
+
+                    <div class="article_item article_item_2">
+
+                        <div class="article_img">
+                            <img src="Images/article_2.png" alt="hotel">
+                        </div>
+
+                        <div class="article_content">
+
+                            <div class="article_subtitle">Restaurant</div>
+
+                            <a class="article_title" href="#">5 restaurant in Cairo<img src="Images/arrow_up_right.svg" alt="arrow"></a>
+
+                        </div>
+                        
+                    </div><!--../.ARTICLE_ITEM-->
+
+
+                    <div class="article_item article_item_3">
+
+                        <div class="article_img">
+                        <img src="Images/article_3.png" alt="hotel">
+                    </div>
+
+                        <div class="article_content">
+
+                            <div class="article_subtitle">Advance & Tip</div>
+
+                            <a class="article_title" href="#">Is Egypt dangerous? <img src="Images/arrow_up_right.svg" alt="arrow"></a>
+
+                        </div>
+                        
+                    </div><!--../.ARTICLE_ITEM-->
+
+                </div><!--../.ARTICLES_ARE_NOT_MAIN-->
+
+            </div><!--../.ARTICLES-->
+
+        </div><!--../.CONTAINER-->
+
+        </section><!--../.ARTICLE_SECTION-->
+
+    </main><!--../.MAIN-->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer_inner">
+
+                <div class="footer_description">
+
+                    <div class="description_title">
+                        EgyptTour
+                    </div>
+
+                    <div class="description_text">
+
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+
+                        !!!!!Макет был взят из Figma!!!!!
+
+                    </div><!--../.DESCRIPTION_TEXT-->
+
+                </div><!--../.FOOTER_DESCRIPTION-->
+
+                <div class="footer_links">
+
+                    <div class="footer_title_block">
+                        Useful Links
+                    </div><!--../.FOOTER_TITLE_BLOCK-->
+
+                    <a href="#" class="footer_link useful_link">About</a>
+                    <a href="#" class="footer_link useful_link">Guide</a>
+                    <a href="#" class="footer_link useful_link">Inspiration</a>
+                    <a href="#" class="footer_link useful_link">Contact</a>
+
+                </div><!--../.FOOTER_LINKS-->
+
+                <div class="footer_resources">
+
+                    <div class="footer_title_block">
+                        Resources
+                    </div><!--../.FOOTER_TITLE_BLOCK-->
+
+                    <a href="#" class="footer_link resource_link">Become a guide</a>
+                    <a href="#" class="footer_link resource_link">Legal</a>
+                    <a href="#" class="footer_link resource_link">Blog</a>
+                    <a href="#" class="footer_link resource_link">Help</a>
+
+                </div><!--../.FOOTER_RESOURCES-->
+
+                <div class="footer_contacts">
+
+                    <div class="footer_title_block">
+                        Contact Us
+                    </div><!--../.FOOTER_TITLE_BLOCK-->
+
+                    <a href="#" class="contact_link footer_link">
+                        <img src="Images/footer_mail.svg" alt="/">
+                        infomail@gmail.com
+                    </a>
+                    <a href="#" class="contact_link footer_link">
+                        <img src="Images/footer_loc.svg" alt="/">
+                        48 Street Road, Cairo                    
+                    </a>
+
+                    <div class="contact_social_networks">
+
+                        <a href="#" class="social_network">
+                            <img src="Images/facebook_icon.svg" alt="facebook">
+                        </a>
+
+                        <a href="#" class="social_network">
+                            <img src="Images/twitter_icon.svg" alt="twitter">
+                        </a>
+
+                        <a href="#" class="social_network">
+                            <img src="Images/inst_icon.svg" alt="instagram">
+                        </a>
+
+                        <a href="#" class="social_network">
+                            <img src="Images/in_icon.svg" alt="in">
+                        </a>
+
+                    </div>
+
+                </div><!--../.FOOTER_CONTACTS-->
+
+            </div><!--../.FOOTER_INNER-->
+
+            <hr class="footer_line">
+
+            <div class="footer_subline_block">
+
+            <p>© 2022 <span>EgyptTour</span></p>
+
+            <div class="footer_bottom_links">
+
+                <a href="#" class="bottom_link">Privacy Policy</a>
+                <a href="#" class="bottom_link">Term of Condition</a>
+
+            </div><!--../.FOOTER_BOTTOM_LINKS-->
+
+        </div><!--../.FOOTER_SUBLINE_BLOCK-->
+
+        </div><!--../.CONTAINER-->
+
+    </footer><!--../.FOOTER-->
+
+    </div><!--../.PAGE-->
+
+    <script src="js/move.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/head_scroll.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
